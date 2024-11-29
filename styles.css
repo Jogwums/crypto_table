@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(120deg, purple, blue);
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+table{
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid #c9c9c9;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th{
+    color: #f9f9f9;
+}
+td{
+    color: #fff;
+    font-size: 1rem;
+}
+
+ /* mobile responsiveness */
+ @media (max-width: 600px){
+    table{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+ }
