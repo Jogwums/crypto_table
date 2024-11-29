@@ -37,4 +37,17 @@ td{
     h1{
         font-size: 1.5rem;
     }
+    tr {
+        display: block; /* Each row becomes a block */
+        margin-bottom: 10px; /* Add spacing between rows */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    td {
+        display: flex; /* Flex layout for stacking */
+        justify-content: space-between; /* Align content properly */
+        padding: 8px;
+        text-align: left; /* Align text for better readability */
+        border: none; /* Remove inner borders */
+    }
  }
